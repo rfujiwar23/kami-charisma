@@ -1,0 +1,61 @@
+.background {
+  background-color: blue;
+}
+
+.content .profile {
+  margin-bottom:40px;
+}
+
+
+.content .profile .position {
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+.content .profile .name {
+  font-size:2em;
+  border-top: 1px dotted #000;
+  text-align: center;
+}
+
+
+.content .profile .personal-title {
+  font-size:0.75em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+.content .profile .personal-title-bottom {
+  font-size:0.75em;
+  text-align: center;
+}
+
+.content .profile .greeting {
+  text-align: center;
+}
+
+.content .profile h2 {
+  color: red;
+  text-align: center;
+}
+
+.signature {
+  margin-top:20px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+.greeting {
+  font-size: 0.8em;
+}
+
+.profile img {
+  padding:0 6vh;
+}
+
+.picture-area {
+  margin:3vh 0;
+}
+
+}

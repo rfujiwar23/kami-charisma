@@ -1,0 +1,16 @@
+.concept-description {
+ font-family: "YuGothic", "Yu Gothic";
+}
+
+.concept-description p.top {
+  font-size:1.75em;
+}
+
+.concept-description p.middle {
+  font-size: 2.5em;
+}
+
+.concept-description p.middle strong {
+  font-size: 2.8em;
+  font-feature-settings: "palt";
+}

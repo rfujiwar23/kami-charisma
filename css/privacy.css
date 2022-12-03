@@ -1,0 +1,26 @@
+.privacy {
+  margin: 50px auto;
+}
+
+.privacy h2 {
+  padding-bottom:20px;
+}
+.privacy h5 {
+  font-weight:bold;
+  text-decoration: underline;
+  font-family: 'Noto Sans JP', serif;
+  margin: 20px auto;
+}
+
+
+.privacy p {
+  padding-left:20px;
+  font-family: 'Noto Sans JP', serif;
+  line-height: 2em;
+}
+
+
+.privacy ul li {
+  font-family: 'Noto Sans JP', serif;
+  line-height: 2em;
+}

@@ -1,0 +1,265 @@
+.br_on450 {
+  display: none;
+}
+
+.txt-01 p {
+  margin: 0 30px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+.txt-01 p strong {
+  color:#D60033;
+  font-size:1.25em;
+  margin:0 5px;
+}
+
+
+.sign-text {
+  margin:5vh 1vh;
+  /*border:1px solid #9a9a9a;*/
+  padding:4vh 0;
+  box-shadow: 1px 2px 10px #9a9a9a;
+}
+
+.sign-text h2 {
+  border-bottom: 1px solid #BD1D20;
+  padding-bottom:4px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left:2px;
+}
+
+.sign-text h3 {
+  /* font-size:18px; */
+  font-size: 1.1em;
+  line-height: 2em;
+  /* font-weight:bold; */
+  margin:2vh 5px 4vh 10px;
+}
+
+
+/*3本の矢（Three Crendtials）*/
+
+.title-text {
+  line-height: 2em;
+  text-align:justify;
+}
+
+.title-text p strong{
+  color:#D60033;
+  font-size:1.25em;
+  margin:0 5px;
+}
+
+.three-credentials {
+  /*margin:4vh auto;*/
+}
+
+.credential {
+  margin:4vh auto;
+}
+
+.credential-pic-area {
+  margin:4vh auto 0;
+}
+
+.credential-pic-area img {
+  padding:10px;
+  box-shadow: 1px 1px 5px #9a9a9a;
+}
+
+.credential h2 {
+  background: linear-gradient(transparent 40%, #E0CD7B 60%);
+  font-weight:bold;
+  font-size:2.2em;
+}
+
+
+.credential p {
+  /*text-decoration: underline;*/
+  margin:20px 30px;
+  line-height: 1.5em;
+}
+
+
+/*選定へのこだわり設定*/
+
+.banner2 {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+
+.selection-txt01 h2{
+  background: linear-gradient(transparent 40%, #E0CD7B 60%);
+}
+
+/*.selection-txt01 ul {
+  list-style: none;
+}*/
+
+.selection-txt01 ol li {
+  margin:10px 0;
+  font-size:1.25em;
+  padding:5px 0 5px 0;
+  /*border:1px solid black;*/
+}
+
+.selection-txt02 {
+  margin:2vh 0;
+  line-height: 2em;
+  text-align:justify;
+}
+
+.selection-txt02 p strong {
+  color:#D60033;
+  font-size:1.25em;
+  margin:0 5px;
+}
+
+/*沿革の設定*/
+.year ul {
+  list-style: none;
+}
+
+.year ul li {
+  display: inline-flex;
+  margin:0 5px;
+}
+
+.year ul li a {
+  /*text-decoration:underline;*/
+  font-size:18px;
+  padding-bottom:5px;
+  color:blue;
+}
+
+.year ul li a:hover {
+  color:red;
+}
+
+
+
+.history {
+  margin:0 0 6vh;
+}
+
+.history img {
+  box-shadow: 3px 5px 3px #9a9a9a;
+  padding:1vh;
+  /*background:#FFFAFA;*/
+}
+
+.history h3 {
+  text-decoration: underline;
+}
+
+.history h4 {
+  /*color:blue;*/
+  text-align: left;
+  margin-left:10px;
+  font-weight:bold;
+  background: linear-gradient(transparent 40%, #E0CD7B 60%);
+}
+
+.history h5 {
+  margin-left: 20px;
+  color: #BD1D20;
+  font-weight: bold;
+}
+
+.history p {
+  margin:10px 20px;
+  line-height:2em;
+  text-align: justify;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .txt-01 p {
+    margin: 0 10px;
+  }
+
+
+  .credential p {
+    /*text-decoration: underline;*/
+    margin-left:10px;
+    line-height:2em;
+  }
+
+  .sign-text {
+    margin:2vh 10px;
+  }
+
+  .sign-text h3 {
+    font-size:16px;
+  }
+
+  .history .image {
+     margin:10px;
+  }
+
+  .history h4 {
+    font-size:1em;
+    margin-left:0;
+  }
+
+  .history p {
+    font-size: 0.9em;
+    text-align: justify;
+    margin:10px;
+  }
+
+  .selection-txt01 h2{
+    font-size:24px;
+    /*font-weight:bold;*/
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .sign-text p {
+    font-size: 0.9em;
+  }
+
+  .txt-01 p {
+    font-size:0.9em;
+  }
+  
+}
+
+@media screen and (max-width:450px) {
+  .br_on450 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .sign-text h2 {
+    font-size: 18px;
+  }
+
+  .sign-text p {
+    font-size: 0.9em;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .sign-text h2 {
+    font-size: 16px;
+  }
+
+  .sign-text h3 {
+    font-size: 14px;
+  }
+
+  .sign-text p {
+    font-size: 0.9em;
+  }
+}

@@ -1,0 +1,55 @@
+
+.banner2 {
+  background-size: cover;
+  background-position: center;
+  padding: 400px 0 100px 0;
+}
+
+
+
+.about-book {
+  text-align: center;
+}
+
+.book {
+  box-shadow: 2px 3px 10px #000;
+}
+
+
+.book-info {
+  margin:4vh 0;
+}
+
+.book-info p {
+  line-height:2em;
+  text-align: justify;
+}
+
+.book-info p strong {
+  color:#D60033;
+  font-size:1.25em;
+  margin:0 5px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .banner2 {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  }
+  .book-info {
+    margin-top:40px;
+  }
+
+  .book-info p, .book-info ul li {
+    line-height:2em;
+  }
+
+  .book {
+    margin-bottom:20px;
+  }
+}

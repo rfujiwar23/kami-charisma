@@ -1,0 +1,561 @@
+body {
+  background:white;
+  font-family: Times New Roman,游明朝,YuMincho,ヒラギノ明朝 ProN W3,Hiragino Mincho ProN,HG明朝E,ＭＳ\ Ｐ明朝,ＭＳ\ 明朝,serif;
+}
+
+.to-kamisma-beauty {
+  width: 122px;
+  height: 54px;
+  z-index: 1040;
+  position: fixed;
+  /*top: 10;*/
+  /*background: #5B2E89;*/
+  /* background: linear-gradient(180deg, rgba(91,46,137,1) 0%, rgba(185,154,217,1) 100%); */
+  border-radius: 3px;
+  background:white;
+  right: 3%;
+  top: 0.7%;
+  /* padding: 10px 0 0; */
+  padding:13px 15px 15px;
+  /*box-shadow: 1px 3px 6px rgb(0,0,0,0.5);*/
+  /*top: 1px;*/
+  color: white;
+  text-align: center;
+}
+
+.to-kamisma-beauty h4 {
+  font-size: 14px;
+}
+
+.to-kamisma-beauty p {
+  font-size: 10px;
+}
+
+
+.navbar-kamicharisma {
+  justify-content: space-between;
+  background: rgba(242, 242, 242, 0.98);
+
+}
+
+.navbar-kamicharisma .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-kamicharisma .navbar-brand img {
+  width: 128px;
+
+}
+
+.dropdown-menu i {
+  color:#d4af37;
+}
+
+
+.nav-link {
+  font-size:0.8em;
+}
+.active {
+  text-decoration: underline;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+}
+
+.banner-bottom {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  margin:50px auto;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.container {
+  width:960px;
+  /*background:#fff;*/
+  /*margin-bottom:12vh;*/
+}
+
+.container .contact-title, .container p.contact {
+  font-family: 'Noto Serif JP', serif;
+}
+
+.container h4{
+  text-align:center;
+}
+
+.concept {
+  margin:50px auto;
+  line-height:2em;
+}
+
+.button, .contact-button {
+  color:white;
+  background-color:black;
+  padding:15px;
+  border-radius:10px;
+}
+
+.button:hover, .contact-button:hover {
+  background-color:#9a9a9a;
+  color:black;
+  text-decoration: none;
+  font-weight:bold;
+  box-shadow:1px 1px 1px black;
+}
+
+footer {
+  /*margin-top:20px;*/
+  /*position: fixed;*/
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background: #fff;
+  border-top:1px solid #D2D5D7;
+
+}
+
+footer p{
+  text-align:center;
+  font-size:0.7em;
+}
+
+footer img {
+  width:120px;
+}
+
+footer a {
+  color:black;
+  text-decoration: underline;
+}
+
+footer p em {
+  font-style: italic;
+}
+
+footer .sitemap {
+  font-size:0.7em;
+  margin:10px auto 40px;
+  border-top:1px solid #D2D5D7;
+  padding-top:20px;
+}
+
+footer .sitemap table tr th {
+  padding:5px 10px;
+}
+
+footer .sitemap table {
+  text-align: center;
+}
+
+footer .sitemap ul {
+  list-style-type: none;
+}
+
+footer .device-sitemap {
+  display: none;
+}
+
+
+.intro p {
+  margin-top:10px;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.concept p {
+  text-align: justify;
+}
+
+/*aboutのページ設定*/
+.profile {
+  margin-bottom: 30px;
+}
+
+.profile .position {
+  border-top: 1px solid #000;
+  padding:10px 0;
+  text-align:center;
+  border-bottom:1px dashed #000;
+
+}
+
+.profile .name {
+  font-size:2em;
+  text-align:center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.profile .personal-title {
+  font-size:0.8em;
+  text-align:center;
+}
+
+.profile .greeting {
+  text-align: justify;
+}
+
+
+
+.container h2.title {
+  /*padding: 1vh 0;*/
+  /*text-decoration:underline;*/
+
+}
+
+.container h2.title {
+  /*position: relative;*/
+  line-height: 1.4;
+  /*padding:0.25em 1em;*/
+  display: inline-block;
+  font-size:2.5em;
+  font-weight:bold;
+  margin: 2vh 0;
+}
+
+.container h2.title {
+  position: relative;
+  padding: 0.25em 0;
+}
+.container h2.title:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+
+.salon {
+  background:#9a9a9a;
+  height:400px;
+  margin-bottom:4vh;
+}
+
+.award2021 {
+  margin-top:8vh;
+}
+
+.award2021 .forward h2 {
+  line-height:2em;
+  width:100%;
+  margin-top:3vh;
+  margin-bottom: 3vh;
+}
+
+.award2021 .forward h2 {
+  width:90%;
+  margin-bottom:10px;
+}
+
+.award2021 .signature {
+  text-align:right;
+}
+
+.award2021 .signature h3 {
+  font-size:1em;
+}
+
+.award2021 .signature h6 {
+  font-size:1em;
+  font-weight:normal;
+}
+
+.award2021 .signature h6 strong {
+  font-size:1.25em;
+}
+
+.award2021 .signature p {
+  font-size:0.75em;
+  margin-top:20px;
+}
+
+
+.award2021 .event {
+  border:1px solid #000;
+  padding:10px;
+}
+
+.award2021 .event .info {
+  line-height:1.5em;
+}
+.award2021 .event .info table {
+  text-align:left;
+  font-size:1em;
+  line-height: 2em;
+}
+
+.award2021 .event .info p, .award2021 .event .info ul li {
+  font-size:0.8em;
+}
+
+.award2021 .event .info .text-top {
+  vertical-align: text-top;
+}
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.concept h2.title, .award2021 h2.title {
+  position: relative;
+  padding: 0.25em 0;
+  font-size:2x`em;
+}
+.concept h2.title:after, .award2021 h2.title:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+
+.uniqueness {
+  margin:5vh 0;
+  text-align:center;
+}
+
+.uniqueness h2 {
+  text-decoration:underline;
+  font-size:0.9em;
+}
+
+
+.uniqueness p {
+  font-size:0.8em;
+}
+
+.uniqueness p span {
+  font-size:1em;
+  font-weight: bold;
+}
+
+/*#on-off {
+  display: none;
+}*/
+
+.uniqueness h5 {
+  font-size:0.9em;
+  font-weight:bold;
+  margin:2vh 0;
+}
+
+
+@media screen and (max-width: 992px) {
+  .to-kamisma-beauty {
+    /*width: 122px;*/
+    z-index: 1040;
+    position: fixed;
+    /*top: 10;*/
+    /*background: white;*/
+    /* top:90%;
+    right:20px; */
+    top:0.3%;
+    right:11%;
+    /* bottom: 0; */
+    /*padding: 13 1px;*/
+    /*top: 1px;*/
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .banner {
+  padding:100px 0;
+  }
+
+  .to-kamisma-beauty {
+    
+    top:0.7%;
+    right:13%;
+    
+  }
+
+
+  footer .sitemap {
+    display: none;
+  }
+
+  footer .device-sitemap {
+    display: block;
+    border-top:1px solid #D2D5D7;
+    padding: 20px 0 20px;
+  }
+
+  footer .device-sitemap .links {
+    font-size:0.7em;
+    text-align:center;
+    margin:5px auto;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+.banner {
+  padding:60px 0;
+}
+
+
+.to-kamisma-beauty {
+    
+  top:0.6%;
+  right:20%;
+  
+}
+
+
+
+.banner-bottom {
+  padding:100px 0;
+  background-size: cover;
+}
+
+.contact-title {
+  font-size:1.75em;
+}
+.container h2.title {
+  font-size:1.5em;
+  margin-left:5px;
+}
+
+.container .logo {
+  padding:0 50px;
+}
+
+.intro, .concept, .event, .award2021 .forward {
+  font-size:0.8em;
+}
+
+.award2021 .event {
+  margin:0 5px;
+}
+
+.award2021 .forward h6{
+  font-size:1em;
+}
+
+.award2021 .signature h3 {
+  font-size:0.8em;
+}
+
+.award2021 .signature h5 {
+  font-size:0.8em;
+}
+
+.award2021 .signature h6 {
+  font-size:0.8em;
+  font-weight:normal;
+}
+
+.award2021 .signature p {
+  font-size:0.6em;
+}
+
+.uniqueness h2 {
+  text-decoration:underline;
+  font-size:0.8em;
+}
+
+.uniqueness p {
+  font-size:0.6em;
+}
+
+}
