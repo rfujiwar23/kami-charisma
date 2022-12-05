@@ -398,7 +398,7 @@ footer .device-sitemap {
 .concept h2.title, .award2021 h2.title {
   position: relative;
   padding: 0.25em 0;
-  font-size:2x`em;
+  font-size:2em;
 }
 .concept h2.title:after, .award2021 h2.title:after {
   content: "";
@@ -520,7 +520,7 @@ footer .device-sitemap {
   padding:0 50px;
 }
 
-.intro, .concept, .event, .award2021 .forward {
+.intro, .concept, .event, .award2021 .forward, .main-event {
   font-size:0.8em;
 }
 
